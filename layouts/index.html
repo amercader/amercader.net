@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body>
+    <div id="profileContainer">
+      <div id="profile">
+        <header>
+          <div class="avatar">
+            <img class="avatarMask" src="/img/{{ .Site.Params.avatar }}" alt="Me with a squid on my head">
+            <img src="/img/avatar-border.svg" alt="avatar-border">
+          </div>
+          <h1 class="author">{{ .Site.Params.Author }}</h1>
+        </header>
+
+        <p>Hi! I'm a software developer with over a decade and a half of experience working in the Open Data and Civic Tech fields. I am an enthusiast of the open Web, specially the communities built around open source projects and open standards.</p>
+
+        <p>I'm working at the <a href="https://okfn.org">Open Knowledge Foundation</a>, leading the tech side of many projects that help make data openly available.
+
+        <p>After spending many years living in the great city of <a href="https://en.wikipedia.org/wiki/Newcastle_upon_Tyne">Newcastle upon Tyne</a>, I moved back to my hometown <a href="http://en.wikipedia.org/wiki/Tarragona" title="Wikipedia page for Tarragona">Tarragona</a>, where I'm currenty based.</p>
+        <!-- navigation -->
+        <nav>
+          <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}" title="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+    </div>
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
