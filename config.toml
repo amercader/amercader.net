@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "https://amercader.net/"
+languageCode = "en-gb"
 title = "Adrià Mercader"
 theme = "pulp"
 
