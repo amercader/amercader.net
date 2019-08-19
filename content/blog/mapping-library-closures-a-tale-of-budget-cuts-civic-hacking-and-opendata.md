@@ -154,7 +154,7 @@ This Python script reads the libraries GeoJSON file, loops through each
 library and queries the MapIt API for its coordinates, storing the result back
 in a new GeoJSON file:
 
-    :::python
+{{< highlight python >}}
     import json
     import requests
 
@@ -179,7 +179,7 @@ in a new GeoJSON file:
 
     with open('libraries_with_wards.geojson', 'w') as f:
         f.write(json.dumps(libraries))
-
+{{< /highlight >}}
 
 As a small aside, it is worth mentioning that the MapIt API is also a great way
 of obtaining the geometries of administrative areas, which are already returned
@@ -228,7 +228,8 @@ Once the libraries and councillors datasets were ready, they only needed to
 be joined via the common field, the ward name. I used another small Python
 script for this:
 
-    :::python
+
+{{< highlight python >}}
     import csv
     import json
 
@@ -254,6 +255,7 @@ script for this:
 
     with open('libraries_with_councillors.geojson', 'w') as f:
         f.write(json.dumps(libraries))
+{{< /highlight >}}
 
 The end result was a GeoJSON file which, apart from the location information,
 contained data about the ward and the councillors for each library, just what
