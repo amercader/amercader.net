@@ -25,15 +25,23 @@ theme = "pulp"
     weight = 20
 
 [[menu.main]]
+    identifier = "Instagram"
+    # name = "Instagram"
+    pre = "<i class='fab fa-instagram fa-lg'></i>"
+    url = "https://www.instagram.com/amercadero/"
+    weight = 30
+
+
+[[menu.main]]
     identifier = "GitHub"
     # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/amercader"
-    weight = 30
+    weight = 40
 
 [[menu.main]]
     identifier = "Email"
     # name = "Email"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:amercadero@gmail.com"
-    weight = 40
+    weight = 50
