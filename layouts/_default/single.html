@@ -4,7 +4,7 @@
   <h1>{{ .Title }}</h1>
   <!-- date -->
   {{ $singlePageDateFormat := .Site.Params.singlePageDateFormat | default "January 2, 2006"}}
-  <p class="date"><a href="{{.Permalink}}">{{ .Date.Format $singlePageDateFormat }}</a></p>
+  <p class="date"><a href="{{.Permalink}}">{{ .Date.Format $singlePageDateFormat }}</a> | <a href="/blog">Archive</a></p>
   <!-- content -->
   <div id="contentBody">
     {{ .Content }}
