@@ -1,6 +1,7 @@
 body {
   background-color: #fffff8;
   color: #111111  !important;
+  font: "Inter", "Inter UI";
 }
 
 #profile  p {

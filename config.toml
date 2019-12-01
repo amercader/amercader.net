@@ -45,3 +45,10 @@ theme = "pulp"
     pre = "<i class='fa fa-envelope fa-lg'></i>"
     url = "mailto:amercadero@gmail.com"
     weight = 50
+
+[[menu.main]]
+    identifier = "RSS"
+    # name = "Email"
+    pre = "<i class='fa fa-rss fa-lg'></i>"
+    url = "/blog/index.xml"
+    weight = 50

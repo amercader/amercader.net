@@ -25,7 +25,28 @@
             {{ end }}
           </ul>
         </nav>
+
+        <hr class="separator">
+
+        <h2>Recent posts</h2>
+
+        <div>
+          {{ $listPageDateFormat := .Site.Params.listPageDateFormat | default "January, 2006"}}
+          {{ range $index, $value := first 1 ( .Pages.GroupByDate $listPageDateFormat) }}
+          {{ if (ne $index 0) }}
+          <hr class="separator">
+          {{ end }}
+          <p class="date">{{ .Key }}</p>
+          {{ range .Pages }}
+            <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+          {{ end }}
+          {{ end }}
+        </div>
+
+
+
       </div>
+
     </div>
     {{- partial "footer.html" . -}}
   </body>
