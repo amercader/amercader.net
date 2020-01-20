@@ -1,0 +1,12 @@
+<footer>
+
+  <p>
+  &copy; {{ now.Format "2006" }} {{ .Site.Params.Author }}. All content licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a> unless otherwise noted.
+  </p>
+  <p>
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  </p>
+</footer>
+{{- range .Site.Params.custom_js -}}
+<script src="{{ . }}"></script>
+{{ end }}
