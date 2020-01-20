@@ -52,3 +52,6 @@ theme = "pulp"
     pre = "<i class='fa fa-rss fa-lg'></i>"
     url = "/blog/index.xml"
     weight = 50
+
+[markup.goldmark.renderer]
+unsafe= true
