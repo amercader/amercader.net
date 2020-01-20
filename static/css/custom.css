@@ -8,6 +8,14 @@ body {
   text-align: justify;
 }
 
+.recentPosts {
+  text-align: center;
+}
+
+.recentPosts div{
+  margin: 16px 0;
+}
+
 #contentBody img {
   display: inherit;
   width: 75%;
