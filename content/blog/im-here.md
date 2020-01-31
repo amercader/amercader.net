@@ -1,6 +1,6 @@
 ---
 title: "I'm here"
-description: ""
+description: "-"
 images:
 - /img/blog/rainbow.jpg
 date: 2020-01-31
