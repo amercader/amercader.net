@@ -28,11 +28,11 @@
 
         <hr class="separator">
 
-        <h2>Recent posts</h2>
+        <h2>Blog posts</h2>
 
         <div id="contentsList" class="recentPosts">
           {{ $listPageDateFormat := .Site.Params.listPageDateFormat | default "January, 2006"}}
-          {{ range $index, $value := first 3 ( .Site.RegularPages.GroupByDate $listPageDateFormat) }}
+          {{ range $index, $value := ( .Site.RegularPages.GroupByDate $listPageDateFormat) }}
           {{ if (ne $index 0) }}
           <hr class="separator"/>
           {{ end }}
