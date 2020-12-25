@@ -7,7 +7,7 @@ draft: false
 Here is a really nice video produced by the [Open Knowledge Foundation](http://okfn.org/) introducing [Open Government Data](http://opengovernmentdata.org/).
 
 <div class="image">
-<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+<script type="text/javascript" src="https://s3.www.universalsubtitles.org/embed.js">
 (
   {"base_state": {"language": "ca"}, "video_url": "http://vimeo.com/21711338"}
 )
