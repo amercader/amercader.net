@@ -1,5 +1,8 @@
 ---
 title: "Munibot, the friendly geo Twitter bot"
+description: "I wrote Munibot, a small Twitter bot that tweets aerial imagery of municipalities (or any other administrative region)"
+images:
+- /img/blog/munibot_summary.jpg
 date: 2020-12-26
 draft: false
 ---
