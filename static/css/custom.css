@@ -16,7 +16,7 @@ body {
   margin: 16px 0;
 }
 
-#contentBody img {
+figure img {
   display: inherit;
   width: 75%;
   height: auto;
@@ -25,6 +25,25 @@ body {
   margin-right: auto;
 }
 
+figure.imgWide {
+  margin: 16px 0;
+}
+
+figure.imgWide > img {
+  width: 100%;
+  max-width: 100%; !important
+}
+
 footer {
   margin-top: 40px;
+}
+
+#contentBody a {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 0.8em;
 }
