@@ -1,6 +1,6 @@
 ---
 title: "Replacing CKAN's web framework: changing the wheels while driving"
-description: "TODO"
+description: "A look at how CKAN managed to gradually switch web frameworks while keeping the show running"
 images:
 - /img/blog/changing_wheels.png
 date: 2021-03-22
