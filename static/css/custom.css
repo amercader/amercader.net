@@ -47,3 +47,7 @@ figcaption {
   padding-top: 16px;
   font-size: 0.8em;
 }
+
+.dash-list {
+  list-style-type: '- ';
+}
