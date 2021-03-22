@@ -17,7 +17,7 @@ Support for Python 3 had been discussed among CKAN maintainers for a long time, 
 
 Although there was (and still is) a natural successor of Pylons (the [Pyramid](https://trypyramid.com/) framework), the decision was made at the time to use [Flask](https://palletsprojects.com/p/flask/) which had a much larger community and ecosystem behind it. Once that was decided, there remained the tricky question of how to actually pull it off...
 
-Luckily CKAN had been [architectured](https://docs.ckan.org/en/2.9/contributing/architecture.html) in a mostly sensible way and had most of the business logic and database models clearly separated from the request handlers (the V in MVC). In theory then, replacing the web framework would just mean replacing what Pylons called *controllers*:
+Luckily CKAN had been [architectured](https://docs.ckan.org/en/2.9/contributing/architecture.html) in a mostly sensible way and had most of the business logic and database models clearly separated from the request handlers (the C in MVC). In theory then, replacing the web framework would just mean replacing what Pylons called *controllers*:
 
 {{< figure src="/img/blog/ckan_architecture_pylons.png" alt="CKAN Architecture - Pylons" >}}
 
