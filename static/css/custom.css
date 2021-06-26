@@ -48,6 +48,10 @@ figcaption {
   font-size: 0.8em;
 }
 
+figcaption p {
+  font-style: italic;
+}
+
 .dash-list {
   list-style-type: '- ';
 }
