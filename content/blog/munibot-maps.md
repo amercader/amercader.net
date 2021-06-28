@@ -42,7 +42,7 @@ There is a rich [ecosystem of tools](https://github.com/mapbox/awesome-vector-ti
 
 For a long time, the gold standard for building web maps that consumed vector tiles had been [Mapbox GL JS](https://www.mapbox.com/mapbox-gljs). At the end of last year they changed the license of the new version of their library to a proprietary one, which made it an option less appealing for open source projects. A fork of the last BSD-licensed Mapbox GL JS version became [Maplibre GL JS](https://github.com/maplibre/maplibre-gl-js) and that's what I picked to power my maps.
 
-And to glue it all together? HTML and [plain JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). Granted that it is an extremely simple website but in the current state of frontend development, not jumping into a framework and write code like this feels both defiant and *very* refreshing:
+And to glue it all together? HTML and [plain JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). Granted that it is an extremely simple website but in the current state of frontend development, not jumping into a framework and writing code like this feels both defiant and *very* refreshing:
 
 ```javascript
 let content = `| ${tweeted} tweets / ${total} total (${parseInt(tweeted/total*100)}%)`
