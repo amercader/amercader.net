@@ -25,6 +25,13 @@ theme = "pulp"
     weight = 20
 
 [[menu.main]]
+    identifier = "Mastodon"
+    # name = "Mastodon"
+    pre = "<i class='fab fa-mastodon fa-lg'></i>"
+    url = "https://mastodon.social/@amercader"
+    weight = 25
+
+[[menu.main]]
     identifier = "Instagram"
     # name = "Instagram"
     pre = "<i class='fab fa-instagram fa-lg'></i>"
