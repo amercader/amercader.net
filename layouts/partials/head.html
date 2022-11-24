@@ -10,19 +10,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="{{ .Site.Author }}" />
-  <link rel="shortcut icon" type="image/x-icon" href="/img/{{ .Site.Params.favicon }}">
+  <link rel="shortcut icon" type="image/x-icon" href="/img/{{ .Site.Params.favicon }}" />
 
   <!-- css -->
   {{ $style := resources.Get "css/style.css" }}
   {{ $markdown := resources.Get "css/markdown.css" }}
   {{ $syntaxHighlight := resources.Get "css/syntax-highlight.css" }}
   {{ $css := slice $style $markdown $syntaxHighlight | resources.Concat "style.css" | resources.Minify | resources.Fingerprint }}
-  <link rel="stylesheet" href="{{ $css.Permalink }}">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ $css.Permalink }}" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
   <!-- custom css -->
   {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ . }}">
+  <link rel="stylesheet" href="{{ . }}" />
   {{ end }}
 
   {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
@@ -40,8 +40,5 @@
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
   <![endif]-->` | safeHTML }}
 
-  <!-- Analytics -->
-  {{- if and (not .Site.IsServer) .Site.GoogleAnalytics -}}
-  {{ template "_internal/google_analytics_async.html" . }}
-  {{- end -}}
+  <link rel="me" href="https://mastodon.social/@amercader" />
 </head>
