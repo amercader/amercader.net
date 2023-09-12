@@ -24,8 +24,7 @@ with Open software and standards.
 would probably pick [Python](http://python.org), [OpenLayers](http://openlayers.org)
 and [PostGIS](http://postgis.refractions.net).
 
-As a proper hacker, I wrote my own website and blog engine (with [Pylons](http://
-pylonshq.org), in case you were wondering) so please bear with me if you find some
+As a proper hacker, I wrote my own website and blog engine (with [Pylons](http://pylonsproject.org), in case you were wondering) so please bear with me if you find some
 glitch or odd behaviour. You can subscribe to the [Atom](http://amercader.net/feeds/posts.atom)
 or [RSS](http://amercader.net/feeds/posts.rss) feeds or follow me on [@amercader](http://twitter.com/amercader) 
 to hear about new posts.
