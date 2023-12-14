@@ -44,7 +44,7 @@ it was my turn to manage the OKF Tech Team I gave the same support to my colleag
 
 As for what comes next, well, first and foremost a break. An extended Christmas break
 to allow me to rest, reset and explore options. I intend to keep active in the CKAN
-Teach Team and the wider community, and there are a couple of side projects that I 
+Tech Team and the wider community, and there are a couple of side projects that I 
 might be able to finally put time into.
 
 Other than that I'm not really sure, but watch this space!
