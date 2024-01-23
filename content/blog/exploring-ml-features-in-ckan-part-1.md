@@ -11,7 +11,8 @@ If you cut across all the tiresome hype and snake oil marketing that surrounds t
 
 To learn more and focus on one particular feature, I've been recently exploring the use of _embeddings_ to find similar datasets in large CKAN instances. I've split the writing in two posts, this one gives a very high level introduction to what embeddings are, and a second part touches on the actual implementation of a CKAN extension. If you are familiar with embeddings you can skip to part 2:
 
-TODO
+[Part 2: Building a CKAN extension that leverages embeddings](/blog/exploring-ml-features-in-ckan-part-2/)
+
 
 | Disclaimer |
 | --- |
@@ -59,7 +60,7 @@ As I mentioned earlier, embeddings are not limited to text inputs. We can use mo
 
 Again, the closer embedding to the image one was the text describing it, followed by the other hat-wearing animal sentences.
 
-## Careful now
+## A word of caution
 
 The ability to get semantic similarity between different texts or other inputs feels like magic and it's tempting to dive straight into integrating it in existing systems, but it is important to remember that the original embeddings were computed based on a specific model. This model was in turn trained on a specific set of data (a really big set!), so the representation of any input data (and their similarity to other data inputs) will reflect any existing biases present in the original data the model was trained on.
 
