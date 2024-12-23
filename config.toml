@@ -32,12 +32,11 @@ theme = "pulp"
     weight = 25
 
 [[menu.main]]
-    identifier = "Instagram"
+    identifier = "LinkedIn"
     # name = "Instagram"
-    pre = "<i class='fab fa-instagram fa-lg'></i>"
-    url = "https://www.instagram.com/amercadero/"
-    weight = 30
-
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"
+    url = "https://www.linkedin.com/in/adriamercader/"
+    weight = 35
 
 [[menu.main]]
     identifier = "GitHub"
@@ -45,6 +44,13 @@ theme = "pulp"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/amercader"
     weight = 40
+
+[[menu.main]]
+    identifier = "Instagram"
+    # name = "Instagram"
+    pre = "<i class='fab fa-instagram fa-lg'></i>"
+    url = "https://www.instagram.com/amercadero/"
+    weight = 45
 
 [[menu.main]]
     identifier = "Email"
