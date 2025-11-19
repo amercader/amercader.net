@@ -10,61 +10,49 @@ theme = "pulp"
     publicationYear = "2019"
     custom_css = ["/css/custom.css"]
 
-#[[menu.main]]
-#    identifier = "blog"
-#    # name = "Blog" #If display text link, cancel comment out
-#    pre = "<i class='fa fa-book-open fa-lg'></i>" #Choose your favorite font from Font Awesome
-#    url = "/blog/"
-#    weight = 10
 
 [[menu.main]]
-    identifier = "Twitter"
-    # name = "Twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"
-    url = "https://twitter.com/amercader"
+    identifier = "Email"
+    pre = "<i class='fa fa-envelope fa-lg'></i>"
+    url = "mailto:amercadero@gmail.com"
     weight = 20
 
 [[menu.main]]
     identifier = "Mastodon"
-    # name = "Mastodon"
     pre = "<i class='fab fa-mastodon fa-lg'></i>"
     url = "https://mastodon.social/@amercader"
     weight = 25
 
 [[menu.main]]
     identifier = "LinkedIn"
-    # name = "Instagram"
     pre = "<i class='fab fa-linkedin fa-lg'></i>"
     url = "https://www.linkedin.com/in/adriamercader/"
     weight = 35
 
 [[menu.main]]
     identifier = "GitHub"
-    # name = "GitHub"
     pre = "<i class='fab fa-github fa-lg'></i>"
     url = "https://github.com/amercader"
     weight = 40
 
 [[menu.main]]
+    identifier = "iNaturalist"
+    pre = "<img src='/img/inat.png' width='21' height='21' />"
+    url = "https://www.inaturalist.org/people/amercader"
+    weight = 42
+
+[[menu.main]]
     identifier = "Instagram"
-    # name = "Instagram"
     pre = "<i class='fab fa-instagram fa-lg'></i>"
     url = "https://www.instagram.com/amercadero/"
     weight = 45
 
 [[menu.main]]
-    identifier = "Email"
-    # name = "Email"
-    pre = "<i class='fa fa-envelope fa-lg'></i>"
-    url = "mailto:amercadero@gmail.com"
-    weight = 50
-
-[[menu.main]]
     identifier = "RSS"
-    # name = "Email"
     pre = "<i class='fa fa-rss fa-lg'></i>"
     url = "/blog/index.xml"
     weight = 50
+
 
 [markup.goldmark.renderer]
 unsafe= true
