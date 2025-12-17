@@ -55,3 +55,14 @@ figcaption p {
 .dash-list {
   list-style-type: '- ';
 }
+
+.top-links {
+  text-align: center;
+}
+
+.current-status {
+  text-align:center;
+  border: 1px solid #767676;
+  margin: 40px;
+  padding: 1em;
+}
