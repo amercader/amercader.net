@@ -56,7 +56,7 @@ As I mentioned earlier, embeddings are not limited to text inputs. We can use mo
 
 |                                                                          | A dog with a blue hat | A cat with a blue hat  | A fish with a blue hat | Stately, plump Buck Mulligan came from the stairhead |
 | ------------------------------------------------------------------------ | --------------------- | ---------------------- | ---------------------- | ---------------------------------------------------- |
-|  {{< figure src="/img/blog/dog_with_blue_hat.jpg" alt="A dog with a blue hat" caption="Pic courtesy of Tony Fischer on <a href='https://www.flickr.com/photos/tonythemisfit/2360241678'>Flickr</a>">}}    | 0.3288                | 0.2703                 | 0.2589                 | 0.2202                                               |
+|  {{< figure src="/img/blog/dog_with_blue_hat.jpg" alt="A dog with a blue hat" caption="Pic courtesy of Tony Fischer on <a href='https://www.flickr.com/photos/tonythemisfit/2360241678'>Flickr</a>" class="zoomable" >}}    | 0.3288                | 0.2703                 | 0.2589                 | 0.2202                                               |
 
 Again, the closer embedding to the image one was the text describing it, followed by the other hat-wearing animal sentences.
 

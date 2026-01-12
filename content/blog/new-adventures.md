@@ -10,7 +10,7 @@ draft: false
 Next week will be my last one working at the [Open Knowledge
 Foundation](https://okfn.org).
 
-{{< figure src="/img/blog/mug.jpg" alt="A mug with the words I love Open Data" >}}
+{{< figure src="/img/blog/mug.jpg" alt="A mug with the words I love Open Data" class="zoomable" >}}
 
 It still feels weird to write it down or say it out loud, it's been almost 13 years
 after all! But it's time to move on and I'm ready for whatever is coming next.
@@ -50,4 +50,4 @@ might be able to finally put time into.
 Other than that I'm not really sure, but watch this space!
 
 
-{{< figure src="/img/blog/clouds_at_the_beach.jpg" alt="Some really nice clouds over the beach" >}}
+{{< figure src="/img/blog/clouds_at_the_beach.jpg" alt="Some really nice clouds over the beach" class="zoomable" >}}

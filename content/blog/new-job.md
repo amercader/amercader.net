@@ -35,4 +35,4 @@ There are many things that need to be defined in terms of how we will work, or
 what we will focus on, but I'm sure good things will come out of it.
 
 
-{{< figure src="/img/blog/crab.jpg" alt="A crab walking over a sunny beach" >}}
+{{< figure src="/img/blog/crab.jpg" alt="A crab walking over a sunny beach" class="zoomable" >}}

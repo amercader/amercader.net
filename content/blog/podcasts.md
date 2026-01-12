@@ -12,7 +12,7 @@ But here are three more I've really enjoyed recently:
 
 ## Cartoonist Kayfabe ([Home](https://www.youtube.com/channel/UCU0v4IGzj2wK-PmjASkK2Rg) | [RSS](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwjAwqXA_JTmAhUDAmMBHegwDTIQFjABegQIBhAB&url=http%3A%2F%2Ffeeds.soundcloud.com%2Fusers%2Fsoundcloud%3Ausers%3A520225677%2Fsounds.rss&usg=AOvVaw2_viU28Xr2jyFLlqLSU6Wu))
 
-{{< figure src="/img/blog/cartoonistkayfabe.jpg" alt="Cartoonist Kayfabe" >}}
+{{< figure src="/img/blog/cartoonistkayfabe.jpg" alt="Cartoonist Kayfabe" class="zoomable" >}}
 
 
 If you are into comics, then there's a good chance you will enjoy this one. [Cartoonist Kayfabe](https://www.youtube.com/channel/UCU0v4IGzj2wK-PmjASkK2Rg) was created by [Ed Piskor](https://twitter.com/EdPiskor) (Hip Hop Family Tree) and [Jim Rugg](https://www.jimrugg.com/) (Street Angel) about a year ago and their channel and audience have been growing steadily among the comics crowd.
@@ -23,7 +23,7 @@ I personally really enjoy the detailed reviews of works like Akira or Dark Knigh
 
 Ed and Jim are obviously passionate about comics and are committed to the series, and their consistency and the DIY feel gives it a really good vibe. 
 
-{{< figure src="/img/blog/cartoonistkayfabe2.jpg" alt="Ed and Jim" >}}
+{{< figure src="/img/blog/cartoonistkayfabe2.jpg" alt="Ed and Jim" class="zoomable" >}}
 
 
 ## RE:COGNITION ([Home](https://www.somersethouse.org.uk/blog/recognition-podcast-nick-ryan) | [RSS](https://audioboom.com/channels/4946876.rss))
@@ -38,7 +38,7 @@ The episodes I enjoyed more were 2 and 4, where Angela Terrill and Jerome Lewis 
 ##  The Missing Cryptoqueen ([Home](https://www.bbc.co.uk/programmes/p07nkd84/episodes/downloads) | [RSS](https://podcasts.files.bbci.co.uk/p07nkd84.rss))
 
 
-{{< figure src="/img/blog/cryptoqueen.jpg" alt="The Missing Cryptoqueen" >}}
+{{< figure src="/img/blog/cryptoqueen.jpg" alt="The Missing Cryptoqueen" class="zoomable" >}}
 
 This series was a pretty wild ride, and I was hooked up from very early on. It tells the story of the rise and fall of Ruja Ignatova and [OneCoin](https://en.wikipedia.org/wiki/OneCoin), the company she created riding the cryptocurrency wave to "revolutionize the financial sector". Spoiler alert: yes, it was one big scam. The series follows the authors (journalists Jamie Bartlett and Georgia Catt) quest to track Ignatova after her disappearance at the peak of One Coin's popularity while digging deeper on how it worked and how it grew so fast. It does a great job of gradually conveying the mind-boggling scale of the operation and how people suffered from it while others were profiting. Really recommended!
 

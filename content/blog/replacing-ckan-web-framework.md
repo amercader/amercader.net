@@ -19,12 +19,12 @@ Although there was (and still is) a natural successor of Pylons (the [Pyramid](h
 
 Luckily CKAN had been [architectured](https://docs.ckan.org/en/2.9/contributing/architecture.html) in a mostly sensible way and had most of the business logic and database models clearly separated from the request handlers (the C in MVC). In theory then, replacing the web framework would just mean replacing what Pylons called *controllers*:
 
-{{< figure src="/img/blog/ckan_architecture_pylons.png" alt="CKAN Architecture - Pylons" >}}
+{{< figure src="/img/blog/ckan_architecture_pylons.png" alt="CKAN Architecture - Pylons" class="zoomable" >}}
 
 ... with Flask *blueprints*:
 
 
-{{< figure src="/img/blog/ckan_architecture_flask.png" alt="CKAN Architecture - Flask" >}}
+{{< figure src="/img/blog/ckan_architecture_flask.png" alt="CKAN Architecture - Flask" class="zoomable" >}}
 
 Well, on paper maybe but there were a number of factors that made this work difficult:
 
@@ -43,7 +43,7 @@ Towards the end 2015 and beginning of 2016 the Open Knowledge Foundation was abl
 
 My colleague at the time [Brook Elgie](https://twitter.com/brew) and I started thinking of ways to approach this. It soon became apparent that going full Flask was not feasible, for the reasons outlined before. So then I started thinking, if we can't rewrite everything to use Flask in one go, why don't we keep both Pylons *and* Flask running side by side for a while? Each would have their own middleware stack and their own controllers / views and any code at a lower level (actions, authorization, models, etc) would be shared among both applications.
 
-{{< figure src="/img/blog/app_dispatcher.png" alt="AppDispatcher Middleware" >}}
+{{< figure src="/img/blog/app_dispatcher.png" alt="AppDispatcher Middleware" class="zoomable" >}}
 
 But how would we decide which app would handle each request? Well, we would just ask each application if they understood that request! A small middleware (`AskAppDispatcher`) at the top of the stack would get the response and show it to the apps, get their responses and decide what to do. Here's a really technical run down of how a request not yet migrated to Flask would look:
 

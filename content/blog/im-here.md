@@ -7,7 +7,7 @@ date: 2020-01-31
 draft: false
 ---
 
-{{< figure src="/img/blog/rainbow.jpg" alt="A rainbow over a hand" >}}
+{{< figure src="/img/blog/rainbow.jpg" alt="A rainbow over a hand" class="zoomable" >}}
 
 Our youngest son is at that magical stage when his speaking is really starting to pick up. In a short period of time he has started to use more and more new words, combining different ones and expressing more complex concepts. There has been something he learnt recently though that really stuck with me.
 

@@ -21,7 +21,7 @@ until eventually the whole map was covered in color.
 
 And that is what now lives at [munibot.amercader.net](https://munibot.amercader.net/).
 
-{{< figure src="/img/blog/munibot_map.png" alt="A screenshot of the Munibot Map app" link="https://munibot.amercader.net/" rel="noreferrer" >}}
+{{< figure src="/img/blog/munibot_map.png" alt="A screenshot of the Munibot Map app" link="https://munibot.amercader.net/" rel="noreferrer" class="zoomable" >}}
 
 They are basic maps without background or labels, and the municipalities with a tweet have a different color. When you click
 on them you can see the actual tweet. And that's about it (I will probably add a search box to search by name though).
@@ -53,10 +53,10 @@ document.getElementsByClassName("counts")[0].append(
 
 It's silly but I'm particularly proud of the small SVGs in the [Spanish map](https://munibot.amercader.net/es/) to zoom the map to mainland Spain or the Canary Islands:
 
-{{< figure src="/img/blog/munibot_es_extent.png" alt="A screenshot of the Munibot Map app, showing the extent chooser" link="https://munibot.amercader.net/es/" rel="noreferrer"  caption="So cute">}}
+{{< figure src="/img/blog/munibot_es_extent.png" alt="A screenshot of the Munibot Map app, showing the extent chooser" link="https://munibot.amercader.net/es/" rel="noreferrer"  caption="So cute" class="zoomable" >}}
 
 For France and its myriad overseas territories I tried to use [Roger Veciana](https://twitter.com/rveciana)'s excellent [d3-composite-projections](https://github.com/rveciana/d3-composite-projections) library but it was too much hassle to adapt to my needs and ended up with a more spartan link list:
 
-{{< figure src="/img/blog/munibot_fr_extent.png" alt="A screenshot of the Munibot Map app, showing the extent chooser" link="https://munibot.amercader.net/fr/" rel="noreferrer"  caption="Gets the job done">}}
+{{< figure src="/img/blog/munibot_fr_extent.png" alt="A screenshot of the Munibot Map app, showing the extent chooser" link="https://munibot.amercader.net/fr/" rel="noreferrer"  caption="Gets the job done" class="zoomable" >}}
 
 All in all a neat little app built in a "serverless" stack that has been fun to put together. Check it out at [munibot.amercader.net](https://munibot.amercader.net/).

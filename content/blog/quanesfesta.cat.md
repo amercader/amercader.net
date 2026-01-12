@@ -26,7 +26,7 @@ Hi ha multitud d'altres llocs web que llisten les festes laborals, però malaura
 
 En comptes d'anar a queixar-me a Twitter (tot i que en tenia moltes ganes), vaig decidir crear el recurs que m'hauria agradat trobar-me. D'aquí va sorgir [quanesfesta.cat](https://quanesfesta.cat).
 
-{{< figure src="/img/blog/quanesfesta.cat_screenshot.png" alt="El lloc web quanesfesta.cat" >}}
+{{< figure src="/img/blog/quanesfesta.cat_screenshot.png" alt="El lloc web quanesfesta.cat" class="zoomable" >}}
 
 Un lloc web amb una funcionalitat ben definida que:
 
@@ -65,7 +65,7 @@ There are a myriad of other web sites that list public holidays but they are gen
 
 Instead of going to rant on Twitter, I decided to create the service I'd had like to find. That's where [quanesfesta.cat](https://quanesfesta.cat) came from.
 
-{{< figure src="/img/blog/quanesfesta.cat_screenshot.png" alt="The website quanesfesta.cat" >}}
+{{< figure src="/img/blog/quanesfesta.cat_screenshot.png" alt="The website quanesfesta.cat" class="zoomable" >}}
 
 A site with a clearly defined function that:
 

@@ -242,7 +242,7 @@ datasets to the one provided with the `id` parameter (id or name). A template
 helper is provided to integrate this in the UI, for instance adding the 5
 closest datasets to the bottom of the dataset page:
 
-{{< figure src="/img/blog/similar_datasets.png" alt="A screenshot of the similar datasets feature in CKAN" >}}
+{{< figure src="/img/blog/similar_datasets.png" alt="A screenshot of the similar datasets feature in CKAN" class="zoomable" >}}
 
 
 
@@ -287,9 +287,9 @@ The standard search UI hasn't been modified to account for this fact, but it
 probably should.
 
 
-{{< figure src="/img/blog/boats_standard_search.png" alt="A screenshot of the search page of CKAN using standard search" >}}
+{{< figure src="/img/blog/boats_standard_search.png" alt="A screenshot of the search page of CKAN using standard search" class="zoomable" >}}
 
-{{< figure src="/img/blog/boats_semantic_search.png" alt="A screenshot of the search page of CKAN using semantic search" >}}
+{{< figure src="/img/blog/boats_semantic_search.png" alt="A screenshot of the search page of CKAN using semantic search" class="zoomable" >}}
 
 
 ## What next?
