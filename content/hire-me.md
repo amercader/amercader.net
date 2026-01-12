@@ -29,7 +29,7 @@ Product Owner, etc. I don't get too hung up on job titles anyway.
 
 When leading teams, I try to create the space where people can grow and play to
 their strengths, while keeping goals and deadlines on track. When being part of a
-team I love learning from my colleagues and be trusted to make my own
+team I love learning from my colleagues and being trusted to make my own
 decisions. In any case, I'll be fastidious about things that improve the
 code quality and make life easier in the long term: tests, linting, automation,
 observability, etc.
