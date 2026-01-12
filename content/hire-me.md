@@ -2,6 +2,8 @@
 title: "Hire me"
 layout: standalone
 description: "Maybe we can work together!"
+images: 
+  - /img/hire-me.jpg
 date: 2025-11-19
 ---
 
