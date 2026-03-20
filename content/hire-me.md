@@ -16,7 +16,7 @@ date: 2025-11-19
 </div>
 
 <div class="current-status">
-Availability: <strong>Currently available</strong>
+Availability: <strong>Not available</strong>
 </div>
 
 
